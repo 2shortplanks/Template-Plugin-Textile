@@ -72,7 +72,8 @@ Insam E<lt>tom@jerakeen.orgE<gt>, and in his own words 'All the clever
 things in Text::Textile were written by Brad Choate
 E<lt>http://www.bradchoate.comE<gt>'
 
-Copyright Profero 2003.  All rights reserved.
+  Copyright Profero 2003.  All rights reserved.
+  Copyright Mark Fowler 2012.  All rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
