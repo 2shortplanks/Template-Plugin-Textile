@@ -4,9 +4,10 @@ use strict;
 #use warnings;
 
 use vars qw($VERSION);
-$VERSION = "1.01";
+$VERSION = "2.00";
 
 use Text::Textile;
+
 
 sub load { return $_[0] }
 sub new  { return bless {}, $_[0] }
