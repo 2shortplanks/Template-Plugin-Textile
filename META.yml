@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name: Template-Plugin-Textile
+version: 1.01
+license: perl
+distribution_type: module
+requires:
+  Template: 2
+  Text::Textile: 0.5
+recommends: {}
+build_requires: {}
+conflicts: {}
+provides:
+  Template::Plugin::Textile:
+    file: lib/Template/Plugin/Textile.pm
+    version: 1.01
+generated_by: Module::Build version 0.18_02

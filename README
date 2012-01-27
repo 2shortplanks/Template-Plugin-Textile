@@ -1,0 +1,93 @@
+              Textile Plugin for the Template Toolkit
+
+                            Version 1.00
+
+                           12th June 2003
+
+         Copyright (C) 2003 Profero.  All Rights Reserved
+
+       This is free software; you can redistribute it and/or
+           modify it under the same terms as Perl itself.
+
+Hmm, most people will never read this as they'll download with
+CPANPLUS or CPAN.  Here's hoping they click on it from a link from
+http://search.cpan.org/
+
+STOP: Do you want the main documentation by typing
+      "perldoc Template::Plugin::Textile" ?
+
+DESCRIPTION
+-----------
+
+This is a plugin for Textile for the Template Toolkit.
+
+It allows you to do things like this:
+
+  [% USE Textile -%]
+  [% FILTER textile %]this is _like_ *so* *cool*[% END %]
+
+And get back things like this:
+
+  <p>this is <em>like</em> <strong>so* *cool</strong></p>
+
+INSTALL
+-------
+
+Just like any other Perl module:
+
+  tar zxf Template-Plugin-Textile-X.XX.tar.gz
+  cd Template-Plugin-Textile-X.XX
+  perl Makefile.PL
+  make
+  make test
+  make install      (as root, or with sudo, etc)
+
+Or, if you're using the new Module::Build install method:
+
+  tar zxf Template-Plugin-Textile-X.XX.tar.gz
+  cd Template-Plugin-Textile-X.XX
+  perl Build.PL
+  ./Build
+  ./Build test
+  ./Build install   (as root, or with sudo, etc)
+
+This requires
+
+ * The Template Toolkit version 2.06 or later
+ * Text::Textile 0.5 or later
+
+SUPPORT
+-------
+
+This code is provided as is, and is offered with no guarantee.
+
+This having been said, you may request our voluntary support in one of
+two ways:
+
+  1) Use the CPAN RT:
+     http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Template-Plugin-Textile
+
+  2) Mail the Profero open source development team directly:
+     profero@cpan.org
+
+Problems with the underlying Text::Textile module probably should be
+addressed to Tom Insam E<lt>tom@jerakeen.orgE<gt>.   
+
+AUTHOR
+------
+
+The thin wrapper code (all ten lines of it) was written by Mark Fowler
+E<lt>mark@twoshortplanks.comE<gt>.
+
+The B<Text::Textile> module that does all the work was written by Tom
+Insam E<lt>tom@jerakeen.orgE<gt>, and in his own words 'All the clever
+things in Text::Textile were written by Brad Choate
+E<lt>http://www.bradchoate.comE<gt>'
+
+COPYRIGHT
+---------
+
+Copyright (C) 2003 Profero.  All Rights Reserved.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
