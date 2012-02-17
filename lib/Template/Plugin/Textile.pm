@@ -4,10 +4,9 @@ use strict;
 #use warnings;
 
 use vars qw($VERSION);
-$VERSION = "2.01";
+$VERSION = "2.02";
 
 use Text::Textile;
-
 
 sub load { return $_[0] }
 sub new  { return bless {}, $_[0] }
@@ -28,7 +27,7 @@ Template::Plugin::Textile - textile plugin for the Template Toolkit
   [% USE Textile -%]
   [% FILTER textile %]this is _like_ *so* *cool*[% END %]
 
-  <p>this is <em>like</em> <strong>so* *cool</strong></p>
+  <p>this is <em>like</em> <strong>so</strong <strong>cool</strong></p>
 
 =head1 DESCRIPTION
 
